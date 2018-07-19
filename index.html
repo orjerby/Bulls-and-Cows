@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="jquery-3.2.1.slim.min.js"></script>
+    <script src="script.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="page-wrap">
+        <h1>בול פגיעה</h1>
+        <button id="newGame">התחל משחק חדש</button>
+        <table>
+            <tr>
+                <th class="emptyTd1"></th>
+                <th id="playerTd1" colspan="1"><h1>שחקן 1</h1><label id="timer1">טיימר</label></th>
+                <th class="emptyCenterTd1"></th>
+                <th class="emptyCenterTd2"></th>
+                <th id="playerTd2" colspan="1"><h1>שחקן 2</h1><label id="timer2">טיימר</label></th>
+                <th class="emptyTd2"></th>
+            </tr>
+            <tr>
+                <td class="emptyTd1"></td>
+                <td id="theNumberTd1" colspan="1"><br /><snap id="numlbl1">המספר</snap><br /><label hidden id="theNumber1Chose"></label><input type="text" maxlength="4" size="4" id="firstPlayerNumber" /><br /><button id="hide1" hidden>הסתר</button><button id="show1" hidden>הראה</button><button id="btnPlayer1">שלח</button></td>
+                <td id="rollTd1"><br /><br /><button id="roll1" hidden>הגרל</button><label id="rolled1"></label></td>
+                <td id="rollTd2"><br /><br /><button id="roll2" hidden>הגרל</button><label id="rolled2"></label></td>
+                <td id="theNumberTd2" colspan="1"><br /><snap id="numlbl2">המספר</snap><br /><label hidden id="theNumber2Chose"></label><input type="text" maxlength="4" size="4" id="secondPlayerNumber" /><br /><button id="hide2" hidden>הסתר</button><button id="show2" hidden>הראה</button><button id="btnPlayer2">שלח</button></td>
+                <td class="emptyTd2"></td>
+            </tr>
+            <tr>
+                <td class="emptyTd1"></td>
+                <td id="guessTd1" colspan="1"><snap hidden id="guesslbl1">הניחוש</snap><br /><input type="text" maxlength="4" size="4" hidden id="firstPlayerGuess" /><br /><label hidden id="theGuess1Chose"></label><button hidden id="sendGuess1">שלח</button></td>
+                <td class="emptyCenterTd1"></td>
+                <td class="emptyCenterTd2"></td>
+                <td id="guessTd2" colspan="1"><snap hidden id="guesslbl2">הניחוש</snap><br /><input type="text" maxlength="4" size="4" hidden id="secondPlayerGuess" /><br /><label hidden id="theGuess2Chose"></label><button hidden id="sendGuess2">שלח</button></td>
+                <td class="emptyTd2"></td>
+            </tr>
+            <tr>
+                <td id="txtAreaTd1">
+                    <textarea id="txtArea1" rows="5" cols="10" maxlength="200"></textarea>
+                </td>
+                <td class="resultsTd">
+                    <a id="res1-1" class="results"></a><br />
+                    <a id="res1-2" class="results"></a><br />
+                    <a id="res1-3" class="results"></a><br />
+                    <a id="res1-4" class="results"></a><br />
+                    <a id="res1-5" class="results"></a><br />
+                    <a id="res1-6" class="results"></a><br />
+                    <a id="res1-7" class="results"></a><br />
+                    <a id="res1-8" class="results"></a><br />
+                    <a id="res1-9" class="results"></a><br />
+                    <a id="res1-10" class="results"></a><br />
+                    <a id="res1-11" class="results"></a><br />
+                    <a id="res1-12" class="results"></a><br />
+                    <a id="res1-13" class="results"></a><br />
+                    <a id="res1-14" class="results"></a><br />
+                    <a id="res1-15" class="results"></a><br />
+                </td>
+                <td id="winLoseTd1">
+                    <img id="win1" src="data/win.gif" hidden />
+                    <img id="lost1" src="data/lost.png" hidden />
+                </td>
+
+                <td id="winLoseTd2">
+                    <img id="win2" src="data/win.gif" hidden />
+                    <img id="lost2" src="data/lost.png" hidden />
+                </td>
+                <td class="resultsTd">
+                    <a id="res2-1" class="results"></a><br />
+                    <a id="res2-2" class="results"></a><br />
+                    <a id="res2-3" class="results"></a><br />
+                    <a id="res2-4" class="results"></a><br />
+                    <a id="res2-5" class="results"></a><br />
+                    <a id="res2-6" class="results"></a><br />
+                    <a id="res2-7" class="results"></a><br />
+                    <a id="res2-8" class="results"></a><br />
+                    <a id="res2-9" class="results"></a><br />
+                    <a id="res2-10" class="results"></a><br />
+                    <a id="res2-11" class="results"></a><br />
+                    <a id="res2-12" class="results"></a><br />
+                    <a id="res2-13" class="results"></a><br />
+                    <a id="res2-14" class="results"></a><br />
+                    <a id="res2-15" class="results"></a><br />
+                </td>
+                <td id="txtAreaTd2">
+                    <textarea id="txtArea2" rows="5" cols="10" maxlength="200"></textarea>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

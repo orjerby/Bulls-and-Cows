@@ -1,0 +1,253 @@
+﻿body {
+    background-image: url('data/sidesbackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#newGame {
+    float: right;
+    font-size: 20px;
+    position: relative;
+}
+
+#timer1 {
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+#timer2 {
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+#hit {
+    width: 18px;
+}
+
+#bull {
+    width: 19px;
+}
+
+#roll1 {
+    float: right;
+    font-size: 20px;
+}
+
+#roll2 {
+    float: left;
+    font-size: 20px;
+}
+
+#rollTd1 {
+    width: 10%;
+    border-left: none;
+}
+
+#rollTd2 {
+    width: 10%;
+    border-right: none;
+}
+
+#theNumberTd1 {
+    width: 23%;
+    border-right: none;
+    border-left: none;
+}
+
+#theNumberTd2 {
+    width: 23%;
+    border-left: none;
+    border-right: none;
+}
+
+#playerTd1 {
+    width: 23%;
+    border-left: none;
+    border-right: none;
+}
+
+#playerTd2 {
+    width: 23%;
+    border-left: none;
+    border-right: none;
+}
+
+#theGuess1Chose {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#theGuess2Chose {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#theNumber1Chose {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#theNumber2Chose {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.emptyTd1 {
+    width: 10%;
+    border-right: none;
+}
+
+.emptyTd2 {
+    width: 10%;
+    border-left: none;
+}
+
+#rolled1 {
+    float: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#rolled2 {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#win1 {
+    width: 100%;
+}
+
+#win2 {
+    width: 100%;
+}
+
+#lost1 {
+    width: 100%;
+    position: sticky;
+}
+
+#lost2 {
+    width: 100%;
+    position: sticky;
+}
+
+h1 {
+    text-align: center;
+    font-family:David;
+    font-size:50px;
+}
+
+input {
+    text-align: center;
+    font-size: 15px;
+}
+
+snap {
+    font-size: 20px;
+}
+
+#txtArea1 {
+    background-image: url('data/greybackground.jpg');
+    font-size: 18px;
+    direction: rtl;
+    resize: none;
+    float: left;
+    position: sticky;
+    float:left;
+}
+
+#txtArea2 {
+    background-image: url('data/greybackground.jpg');
+    font-size: 18px;
+    direction: rtl;
+    resize: none;
+    float: left;
+    position: sticky;
+    float:right;
+}
+
+#txtAreaTd1 {
+    width: 10%;
+    border-right: none;
+}
+
+#txtAreaTd2 {
+    width: 10%;
+    border-left: none;
+}
+
+#winLoseTd1 {
+    width: 10%;
+    border-left: none;
+}
+
+#winLoseTd2 {
+    width: 10%;
+    border-right: none;
+}
+
+.resultsTd {
+    width: 23%;
+    border-right: none;
+    border-left: none;
+}
+
+#guessTd1 {
+    width: 10%;
+    border-left: none;
+    border-right: none;
+}
+
+#guessTd2 {
+    width: 10%;
+    border-left: none;
+    border-right: none;
+}
+
+.emptyCenterTd1 {
+    width: 10%;
+    border-left: none;
+}
+
+.emptyCenterTd2 {
+    width: 10%;
+    border-right: none;
+}
+
+.results {
+    font-size: 22px;
+    font-weight: bolder;
+    position: relative;
+}
+
+
+table {
+    background-image: url('data/greybackground.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+}
+
+    table tr {
+    }
+
+        table tr th {
+            height: 70px;
+            text-align: center;
+            border: 1px solid black;
+            vertical-align: top;
+        }
+
+        table tr td {
+            height: 100px;
+            text-align: center;
+            border: 1px solid black;
+            vertical-align: top;
+        }
